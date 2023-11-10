@@ -35,14 +35,12 @@ const Works: React.FC = () => {
         <Box display='flex' justifyContent='center' p={1} >
           <List className={classes.root}>
             <ListItem>
-              // GitHubリポジトリなどのURLを貼る
               <ListItemLink href='#'>
                 <ListItemAvatar>
                   <Avatar>
                     <FolderIcon />
                   </Avatar>
                 </ListItemAvatar>
-                // 「primary」に作品名、「secondary」に説明文を書く
                 <ListItemText primary='Work1' secondary='Work1です。' />
               </ListItemLink>
             </ListItem>

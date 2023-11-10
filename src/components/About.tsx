@@ -6,12 +6,12 @@ const About: React.FC = () => {
   return (
     <>
       <Box p={2}>
-        <Box display='flex' p={1}>
-          <Typography variant='h5' >
+        <Box display='flex' justifyContent='center' p={1}>
+          <Typography variant='h5'>
             About
           </Typography>
         </Box>
-        <Box display='flex' p={1}>
+        <Box display='flex' justifyContent='center' p={1}>
           <Typography variant='body1' align='left'>
             私の名前は田中太郎です。<br />
             東京でWebエンジニアとして働いています。<br />
